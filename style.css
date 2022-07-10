@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background: #efefef;
+}
+
+h1 {
+    margin: 50px;
+    padding: 50px;
+}
+
+.room {
+    margin: 100px 150px;
+}
