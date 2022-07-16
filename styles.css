@@ -1,0 +1,16 @@
+body {
+    background: 0 -100px repeat-x url(bg_gallery.png);
+    margin: 15px;
+}
+
+img {
+    display: none;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    padding: 1px;
+}

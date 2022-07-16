@@ -3,16 +3,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Code Art Gallery</title>
 </head>
-<body>
-    <h1>Code Art Gallery</h1>
-
-    <div class="room"></div>
-
+<body onload="draw()">
+    <table>
+        <tr>
+            <td><img src="img/img_1.png" alt=""></td>
+            <td><img src="img/img_2.png" alt=""></td>
+            <td><img src="img/img_3.png" alt=""></td>
+        </tr>
+        <tr>
+            <td><img src="img/img_6.png" alt=""></td>
+            <td><img src="img/img_7.png" alt=""></td>
+            <td><img src="img/img_9.png" alt=""></td>
+        </tr>
+    </table>
+    <img id="frame" src="border.png" alt="">
     <!-- scripts -->
-    <script src="frame.js"></script>
-    <script src="index.js"></script>
+    <script src="src/index.js"></script>
 </body>
 </html>
